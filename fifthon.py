@@ -33,7 +33,7 @@ sec = time.time()
 LOGS = logging.getLogger(__name__)
 
 DEVS = [
-    5307018300,
+    7275336620,
 ]
 DEL_TIME_OUT = 10
 normzltext = "1234567890"
@@ -104,12 +104,12 @@ async def _(event):
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
-**☆ سـورس حلم 
-☆ Version : 2.0
-☆ Ping : `{ms}`
-☆ Date : `{m9zpi}`
-☆ ID : `{event.sender_id}`
-☆ حبيبي دز الصيد بلكروب: @jnuun **
+**✎┊ سـورس صيد العقرب 
+✎┊ Version : 2.0
+✎┊ Ping : `{ms}`
+✎┊ Date : `{m9zpi}`
+✎┊ ID : `{event.sender_id}`
+✎┊ حبيبي دز الصيد : @I_e_e_l **
 ''')
 
 
@@ -137,12 +137,12 @@ async def _(event):
     await event.edit(sec4)
 
     
-ownerhson_id = 1041483862
+ownerhson_id = 7275336620
 @fifthon.on(events.NewMessage(outgoing=False, pattern='/start'))
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
-        order = await event.reply('●━━━━━━ @HLLAM ━━━━━━●')
+        order = await event.reply('●━━━━━━ @Scorpion_scorp ━━━━━━●')
 
 
 @fifthon.on(events.NewMessage(outgoing=True, pattern=r"\.اعادة تشغيل"))
